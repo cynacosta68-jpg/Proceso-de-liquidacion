@@ -6,6 +6,8 @@ import re
 import os
 import io
 from datetime import datetime
+from auth import login_required
+login_required()
 
 # --- Helper Functions ---
 
